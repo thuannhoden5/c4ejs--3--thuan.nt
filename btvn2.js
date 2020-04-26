@@ -192,7 +192,7 @@ clear();
 let x = prompt(' enter number of edges ');
 let i=0;
 while (i<x){
-  fd(100);
+  fd(100/(0.2*x));
   rt(360/x);
   i++
 }
