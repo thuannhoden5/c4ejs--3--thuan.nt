@@ -84,7 +84,6 @@ for(let j=2;j<5;j++){
         console.log(`I would get ${sum} * 2$ = ${sum1}`);
     }
 
-
 }
 
 
