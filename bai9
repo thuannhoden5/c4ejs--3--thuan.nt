@@ -1,0 +1,9 @@
+clear();
+const colors = ['red','grey','blue','purple','cyan']
+for(let i=0;i<5;i++){
+  for(let j=0;j<4;j++){
+    fd(40*i);
+    rt(90);
+  }
+  color(colors[i]);
+}
